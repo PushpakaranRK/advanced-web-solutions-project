@@ -1,0 +1,44 @@
+// sidebar.scss
+
+.sidebar-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  background-color: #000000;
+  padding-top: 20px;
+  position: relative;
+  width: 200px;
+}
+
+.logo {
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.logo__image {
+  width: 50px;
+  height: auto;
+}
+
+.sidebar-items {
+  position: relative;
+}
+
+.sidebar__item {
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  display: block;
+}
+
+.sidebar__item:hover {
+  background-color: #e9ecef;
+}
+
+.content {
+  padding: 20px;
+  flex: 1;
+}
