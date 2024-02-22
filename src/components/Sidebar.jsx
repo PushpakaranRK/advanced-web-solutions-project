@@ -1,22 +1,23 @@
 import {ListGroup} from 'react-bootstrap';
-import {Link} from 'react-router-dom';
 
 const Sidebar = () => {
     return (
         <div className="sidebar">
             <div className="logo">
-                <img src="/vite.svg" alt="Logo" className="logo__image"/>
                 <img src="/react.svg" alt="Logo" className="logo__image"/>
             </div>
             <div className="sidebar-items">
                 <ListGroup>
-                    <ListGroup.Item className="sidebar__item" as={Link} to="/dashboard">
+                    <ListGroup.Item className="sidebar__item" to="/dashboard">
                         Dashboard
                     </ListGroup.Item>
-                    <ListGroup.Item className="sidebar__item" as={Link} to="/vendors">
+                    <ListGroup.Item className="sidebar__item" to="/home">
+                        Home
+                    </ListGroup.Item>
+                    <ListGroup.Item className="sidebar__item" to="/vendors">
                         Vendors
                     </ListGroup.Item>
-                    <ListGroup.Item className="sidebar__item" as={Link} to="/products">
+                    <ListGroup.Item className="sidebar__item" to="/products">
                         Products
                     </ListGroup.Item>
                 </ListGroup>
