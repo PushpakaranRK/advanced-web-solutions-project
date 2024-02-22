@@ -1,8 +1,12 @@
+import Layout from "../Layout.jsx";
+
 const VendorsPage = () => {
     return (
-        <div>
-            <h2>Vendors</h2>
-        </div>
+        <Layout>
+            <div>
+                <h2>Vendors</h2>
+            </div>
+        </Layout>
     );
 };
 
