@@ -1,8 +1,12 @@
+import Layout from "../Layout.jsx";
+
 const ProductsPage = () => {
     return (
-        <div>
-            <h2>Products</h2>
-        </div>
+        <Layout>
+            <div>
+                <h2>Products</h2>
+            </div>
+        </Layout>
     );
 };
 
