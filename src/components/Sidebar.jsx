@@ -11,7 +11,7 @@ const Sidebar = () => {
             </div>
             <div className="sidebar-items">
                 <ListGroup>
-                    <ListGroup.Item className="sidebar__item" as={Link} to="/">
+                    <ListGroup.Item className="sidebar__item" as={Link} to="/dashboard">
                         Home
                     </ListGroup.Item>
                     <ListGroup.Item className="sidebar__item" as={Link} to="/vendors">
